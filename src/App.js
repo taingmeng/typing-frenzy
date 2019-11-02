@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import logo from './logo.svg';
+import useKeyPress from './hooks/useKeyPress';
+
 import './App.css';
 
 function App() {
+  const [chars, setChars] = useState('');
+  useKeyPress((key) => {
+    setChars(chars + key);
+  })
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {chars}
         </p>
         <a
           className="App-link"
