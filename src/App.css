@@ -21,3 +21,15 @@
 .App-link {
   color: #09d3ac;
 }
+
+.Character {
+  white-space: pre;
+}
+
+.Character-current {
+  background-color: #09d3ac;
+}
+
+.Character-out {
+  color: silver;
+}

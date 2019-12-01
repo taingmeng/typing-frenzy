@@ -1,35 +1,34 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 
+//1
 const useKeyPress = callback => {
-  const savedCallback = useRef();
-  const [keyPressed, setKeyPressed] = useState('');
-
-  // Remember the latest callback.
+  //2
+  const [keyPressed, setKeyPressed] = useState();
+  //3
   useEffect(() => {
-    savedCallback.current = callback;
-  }, [callback]);
-
-  useEffect(() => {
+    //4
     const downHandler = ({ key }) => {
       if (keyPressed !== key && key.length === 1) {
         setKeyPressed(key);
-        savedCallback.current && savedCallback.current(key);
+        callback && callback(key);
       }
     };
-
-    // If released key is our target key then set to false
-    const upHandler = ({ key }) => {
+    //5
+    const upHandler = () => {
       setKeyPressed(null);
     };
+
+    //6
     window.addEventListener('keydown', downHandler);
     window.addEventListener('keyup', upHandler);
-    // Remove event listeners on cleanup
+
     return () => {
+      //7
       window.removeEventListener('keydown', downHandler);
       window.removeEventListener('keyup', upHandler);
     };
-  }, [keyPressed]);
-
+  });
+  //8
   return keyPressed;
 };
 
