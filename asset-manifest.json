@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/typing-frenzy/static/css/main.73b88505.chunk.css",
+    "main.js": "/typing-frenzy/static/js/main.059c1f35.chunk.js",
+    "main.js.map": "/typing-frenzy/static/js/main.059c1f35.chunk.js.map",
+    "runtime-main.js": "/typing-frenzy/static/js/runtime-main.986a237c.js",
+    "runtime-main.js.map": "/typing-frenzy/static/js/runtime-main.986a237c.js.map",
+    "static/js/2.cb736861.chunk.js": "/typing-frenzy/static/js/2.cb736861.chunk.js",
+    "static/js/2.cb736861.chunk.js.map": "/typing-frenzy/static/js/2.cb736861.chunk.js.map",
+    "index.html": "/typing-frenzy/index.html",
+    "precache-manifest.e0380c4da64fa0efe2ab22c815ba7e8b.js": "/typing-frenzy/precache-manifest.e0380c4da64fa0efe2ab22c815ba7e8b.js",
+    "service-worker.js": "/typing-frenzy/service-worker.js",
+    "static/css/main.73b88505.chunk.css.map": "/typing-frenzy/static/css/main.73b88505.chunk.css.map",
+    "static/media/logo.svg": "/typing-frenzy/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.986a237c.js",
+    "static/js/2.cb736861.chunk.js",
+    "static/css/main.73b88505.chunk.css",
+    "static/js/main.059c1f35.chunk.js"
+  ]
+}
