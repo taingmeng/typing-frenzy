@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08f0f989d3e2daf7effda5c67c501a48",
+    "revision": "95f76006476ba3eaa23aa13271bf12b8",
     "url": "/typing-frenzy/index.html"
   },
   {
-    "revision": "d14759e982731f88f458",
+    "revision": "4051fd6f748d3db77a3f",
     "url": "/typing-frenzy/static/css/main.73b88505.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/typing-frenzy/static/js/2.cb736861.chunk.js"
   },
   {
-    "revision": "d14759e982731f88f458",
-    "url": "/typing-frenzy/static/js/main.3cf5f5cd.chunk.js"
+    "revision": "4051fd6f748d3db77a3f",
+    "url": "/typing-frenzy/static/js/main.8bc86fdf.chunk.js"
   },
   {
     "revision": "5b55c80f8697628018b0",
