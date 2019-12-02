@@ -1,3 +1,10 @@
+## Live Demo
+Click [here](https://taingmeng.github.io/typing-frenzy/) for demo.
+
+## Tutorial
+This project is created for [this tutorial](https://medium.com/@taingmeng/create-typing-game-with-react-hook-usekeypress-and-faker-28bbc7919820) on Medium.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

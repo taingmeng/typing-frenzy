@@ -78,7 +78,7 @@ function App() {
         <span>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://medium.com/@taingmeng/create-typing-game-with-react-hooks-usekeypress-and-faker-28bbc7919820"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -87,7 +87,7 @@ function App() {
           |
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://github.com/taingmeng/typing-frenzy"
             target="_blank"
             rel="noopener noreferrer"
           >
